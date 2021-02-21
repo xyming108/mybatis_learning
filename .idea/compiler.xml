@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Day1_03_dao" />
         <module name="Day3_01_DatasourceAndTx" />
+        <module name="Day3_03_one2many" />
         <module name="Day3_02_dynamicSQL" />
         <module name="Day2_01_CRUD" />
         <module name="Day1_02_annotation" />
@@ -16,13 +17,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="Day1_01" target="8" />
-      <module name="Day1_02_annotation" target="8" />
-      <module name="Day1_03_dao" target="8" />
-      <module name="Day1_04_design" target="8" />
-      <module name="Day2_01_CRUD" target="8" />
-      <module name="Day3_01_DatasourceAndTx" target="8" />
-      <module name="Day3_02_dynamicSQL" target="8" />
+      <module name="Day1_01" target="1.5" />
+      <module name="Day1_02_annotation" target="1.5" />
+      <module name="Day1_03_dao" target="1.5" />
+      <module name="Day1_04_design" target="1.5" />
+      <module name="Day2_01_CRUD" target="1.5" />
+      <module name="Day3_01_DatasourceAndTx" target="1.5" />
+      <module name="Day3_02_dynamicSQL" target="1.5" />
+      <module name="Day3_03_one2many" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

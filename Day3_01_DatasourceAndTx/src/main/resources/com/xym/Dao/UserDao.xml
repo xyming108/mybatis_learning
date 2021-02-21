@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xym.Dao.UserDao">
+    <!--配置查询所有-->
+    <select id="findAll" resultType="com.xym.domain.User">
+        select * from user;
+    </select>
+
+    <!--保存用户-->
+    <insert id="saveUser" parameterType="com.xym.domain.User">
+        /*配置插入操作后，获取插入数据的id*/
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username, address, sex, birthday)values (#{username}, #{address}, #{sex}, #{birthday});
+    </insert>
+
+    <!--更新用户-->
+    <update id="updateUser" parameterType="com.xym.domain.User">
+        update user set username=#{username}, address=#{address}, sex=#{sex}, birthday=#{birthday} where id=#{id};
+    </update>
+
+    <!--删除用户-->
+    <delete id="deleteUser" parameterType="Integer">
+        /*uid可以随便更换名称*/
+        delete from user where id=#{uid};
+    </delete>
+
+    <!--根据id查询用户-->
+    <!--parameterType可以随便写，只要可以表示出int类型就可以，resultType表示返回对象，这里返回对象是User类型-->
+    <select id="findById" parameterType="INT" resultType="com.xym.domain.User">
+        select * from user where id = #{uid};
+    </select>
+
+    <!--根据名称模糊查询的方法-->
+    <select id="findByName" parameterType="string" resultType="com.xym.domain.User">
+        select * from user where username like #{name}
+    </select>
+
+    <!--获取用户的总记录条数-->
+    <select id="findTotal" resultType="int">
+        select count(id) from user;
+    </select>
+
+    <!--根据QueryVo的条件查询用户-->
+    <select id="findUserByVo" parameterType="com.xym.domain.QueryVo" resultType="com.xym.domain.User">
+        select * from user where username like #{user.username};
+    </select>
+
+</mapper>

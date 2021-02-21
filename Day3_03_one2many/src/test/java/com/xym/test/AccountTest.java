@@ -2,6 +2,7 @@ package com.xym.test;
 
 import com.xym.Dao.AccountDao;
 import com.xym.domain.Account;
+import com.xym.domain.AccountUser;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -47,11 +48,25 @@ public class AccountTest {
         in.close();
     }
 
+    /**
+     * 测试查询所有
+     */
     @Test
     public void testFindAll() {
         List<Account> accounts = accountDao.findAll();
         for (Account account : accounts) {
             System.out.println(account);
+        }
+    }
+
+    /**
+     * 测试查询所有账户，同时包含用户名和地址
+     */
+    @Test
+    public void testFindAllAccountUser() {
+        List<AccountUser> aus = accountDao.findAllAccount();
+        for (AccountUser au : aus) {
+            System.out.println(au);
         }
     }
 }

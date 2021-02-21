@@ -4,9 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.xym.Dao.UserDao">
+
+    <!--了解的内容，抽取重复的sql语句-->
+    <sql id="defaultUser">
+        select * from user
+    </sql>
+
     <!--配置查询所有-->
     <select id="findAll" resultType="com.xym.domain.User">
-        select * from user;
+        <include refid="defaultUser"></include>
     </select>
 
     <!--根据id查询用户-->
@@ -17,7 +23,7 @@
 
     <!--根据名称模糊查询的方法-->
     <select id="findByName" parameterType="string" resultType="com.xym.domain.User">
-        select * from user where username like #{name}
+        select * from user where username like #{name};
     </select>
 
     <!--根据QueryVo的条件查询用户-->
@@ -40,7 +46,7 @@
 
     <!--根据QueryVo中提供的id集合，查询用户信息-->
     <select id="findUserInIds" resultType="com.xym.domain.User" parameterType="com.xym.domain.QueryVo">
-        select * from user
+        <include refid="defaultUser"></include>
         <where>
             <if test="ids != null and ids.size() > 0">
                 <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">

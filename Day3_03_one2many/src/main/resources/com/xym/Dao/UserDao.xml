@@ -12,6 +12,6 @@
     <!--根据id查询用户-->
     <!--parameterType可以随便写，只要可以表示出int类型就可以，resultType表示返回对象，这里返回对象是User类型-->
     <select id="findById" parameterType="INT" resultType="com.xym.domain.User">
-        select * from user where id = #{uid};
+        select * from user where id = #{uid}
     </select>
 </mapper>

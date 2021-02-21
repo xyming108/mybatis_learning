@@ -1137,36 +1137,36 @@
     <table id="287" parent="7" name="user_role">
       <Collation>utf8_general_ci</Collation>
     </table>
-    <column id="288" parent="284" name="ID">
+    <column id="288" parent="284" name="id">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="284" name="UID">
+    <column id="289" parent="284" name="uid">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="284" name="MONEY">
+    <column id="290" parent="284" name="money">
       <Position>3</Position>
       <Comment>金额</Comment>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="291" parent="284" name="FK_Reference_8">
-      <ColNames>UID</ColNames>
+      <ColNames>uid</ColNames>
       <Type>btree</Type>
     </index>
     <key id="292" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>ID</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <foreign-key id="293" parent="284" name="FK_Reference_8">
-      <ColNames>UID</ColNames>
+      <ColNames>uid</ColNames>
       <RefSchemaName>mybatis_user</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>

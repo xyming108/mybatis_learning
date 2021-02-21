@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Day1_04_design/Day1_04_design.iml" filepath="$PROJECT_DIR$/Day1_04_design/Day1_04_design.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day2_01_CRUD/Day2_01_CRUD.iml" filepath="$PROJECT_DIR$/Day2_01_CRUD/Day2_01_CRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day3_01_DatasourceAndTx/Day3_01_DatasourceAndTx.iml" filepath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/Day3_01_DatasourceAndTx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day3_02_dynamicSQL/Day3_02_dynamicSQL.iml" filepath="$PROJECT_DIR$/Day3_02_dynamicSQL/Day3_02_dynamicSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mybatis_learning.iml" filepath="$PROJECT_DIR$/.idea/mybatis_learning.iml" />
     </modules>
   </component>

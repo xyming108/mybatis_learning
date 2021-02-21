@@ -1,7 +1,6 @@
 package com.xym.test;
 
 import com.xym.Dao.UserDao;
-import com.xym.domain.QueryVo;
 import com.xym.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -13,7 +12,6 @@ import org.junit.Test;
 
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**

@@ -38,4 +38,15 @@
         </where>
     </select>
 
+    <!--根据QueryVo中提供的id集合，查询用户信息-->
+    <select id="findUserInIds" resultType="com.xym.domain.User" parameterType="com.xym.domain.QueryVo">
+        select * from user
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>
+    </select>
 </mapper>

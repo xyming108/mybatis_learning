@@ -1,5 +1,7 @@
 package com.xym.domain;
 
+import java.util.List;
+
 /**
  * @user: Hasee
  * @date: 2021/2/20 21:07
@@ -9,6 +11,7 @@ package com.xym.domain;
  */
 public class QueryVo {
     private User user;
+    private List<Integer> ids;
 
     public User getUser() {
         return user;
@@ -16,5 +19,13 @@ public class QueryVo {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public List<Integer> getIds() {
+        return ids;
+    }
+
+    public void setIds(List<Integer> ids) {
+        this.ids = ids;
     }
 }

@@ -1,32 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2796e73-85ce-4bab-965a-e0139eb1b5d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/Day3_04_many2many.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java" afterDir="false" />
+    <list default="true" id="e2796e73-85ce-4bab-965a-e0139eb1b5d7" name="Default Changelist" comment="mybatis_learning">
+      <change afterPath="$PROJECT_DIR$/Day1_02_annotation/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_02_annotation/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_02_annotation/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_02_annotation/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_02_annotation/target/test-classes/com/xym/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/classes/com/xym/Dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_03_dao/target/test-classes/com/xym/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/SqlSession/SqlSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/SqlSession/SqlSessionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/SqlSession/SqlSessionFactoryBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/SqlSession/defaults/DefaultSqlSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/SqlSession/defaults/DefaultSqlSessionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/SqlSession/proxy/MapperProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/annotations/Select.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/cfg/Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/cfg/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/io/Resources.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/utils/DataSourceUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/utils/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/com/xym/mybatis/utils/XMLConfigBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1_04_design/target/test-classes/com/xym/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/domain/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/test-classes/com/xym/test/RoleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_04_many2many/target/test-classes/com/xym/test/UserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/Dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/AccountDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/Dao/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/Dao/AccountDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/domain/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/test-classes/com/xym/test/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/target/test-classes/com/xym/test/AccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_01/Day1_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_01/Day1_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_01/target/classes/com/xym/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_01/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_01/target/classes/com/xym/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_01/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_01/target/test-classes/com/xym/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_01/target/test-classes/com/xym/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_02_annotation/Day1_02_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_02_annotation/Day1_02_annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_03_dao/Day1_03_dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_03_dao/Day1_03_dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1_04_design/Day1_04_design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day1_04_design/Day1_04_design.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2_01_CRUD/Day2_01_CRUD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_01_CRUD/Day2_01_CRUD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/Day3_01_DatasourceAndTx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/Day3_01_DatasourceAndTx.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/domain/QueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/domain/QueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/test-classes/com/xym/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/test-classes/com/xym/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/Day3_02_dynamicSQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/Day3_02_dynamicSQL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/Dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/Dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/domain/QueryVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/domain/QueryVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/classes/com/xym/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/test-classes/com/xym/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_02_dynamicSQL/target/test-classes/com/xym/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/Dao/AccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/AccountUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/AccountDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/RoleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/Day3_04_many2many.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/Day3_04_many2many.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/" />
     <ignored path="$PROJECT_DIR$/Day2_01_CRUD/target/" />
@@ -83,22 +137,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/RoleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="191">
+              <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java">
+        <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/RoleDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -109,14 +188,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/Dao/AccountDao.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,12 +225,23 @@
         <option value="$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/UserTest.java" />
         <option value="$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/Day3_03_many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/Day3_04_many2many/pom.xml" />
         <option value="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/User.java" />
         <option value="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/RoleTest.java" />
+        <option value="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/RoleDao.xml" />
+        <option value="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/Role.java" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -175,11 +263,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Day3_02_dynamicSQL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Day3_03_one2many" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Day3_02_dynamicSQL" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Day3_03_one2many" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -195,7 +283,9 @@
     <option name="width" value="1115" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
@@ -203,8 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,25 +465,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day3_04_many2many/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36802974" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xym.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java Code\mybatis_learning\Day3_04_many2many\src\main\resources\com\xym\Dao" />
+      <recent name="E:\Java Code\mybatis_learning\Day3_04_many2many\src\test\java\com\xym\test" />
       <recent name="E:\Java Code\mybatis_learning\Day3_04_many2many\src" />
       <recent name="E:\Java Code\mybatis_learning\Day3_03_one2many\src" />
       <recent name="E:\Java Code\mybatis_learning\Day3_02_dynamicSQL\src" />
-      <recent name="E:\Java Code\mybatis_learning\Day1_01\src" />
-      <recent name="E:\Java Code\mybatis_learning\Day1_02_annotation\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -408,9 +499,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.testFindAll">
-    <configuration name="AccountTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day3_03_one2many" />
+  <component name="RunManager">
+    <configuration name="RoleTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day3_04_many2many" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xym.test.*" />
@@ -418,104 +509,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xym.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xym.test.AccountTest" />
+      <option name="MAIN_CLASS_NAME" value="com.xym.test.RoleTest" />
       <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.testFindAllAccountUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day3_03_one2many" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xym.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xym.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xym.test.AccountTest" />
-      <option name="METHOD_NAME" value="testFindAllAccountUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testFindInIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day3_03_one2many" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xym.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xym.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xym.test.AccountTest" />
-      <option name="METHOD_NAME" value="testFindInIds" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testfindAllAccountUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day3_03_one2many" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xym.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xym.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xym.test.AccountTest" />
-      <option name="METHOD_NAME" value="testfindAllAccountUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day3_03_one2many" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xym.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xym.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xym.test.UserTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.AccountTest.testFindInIds" />
-      <item itemvalue="JUnit.AccountTest.testFindAll" />
-      <item itemvalue="JUnit.AccountTest.testfindAllAccountUser" />
-      <item itemvalue="JUnit.AccountTest.testFindAllAccountUser" />
-      <item itemvalue="JUnit.UserTest.testFindAll" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.testFindAll" />
-        <item itemvalue="JUnit.AccountTest.testFindAll" />
-        <item itemvalue="JUnit.AccountTest.testFindAllAccountUser" />
-        <item itemvalue="JUnit.AccountTest.testfindAllAccountUser" />
-        <item itemvalue="JUnit.AccountTest.testFindInIds" />
+        <item itemvalue="JUnit.RoleTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_testFindAll - 2021.02.22 at 14h 35m 49s.xml">
-      <configuration name="UserTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_testFindAll - 2021.02.22 at 14h 36m 13s.xml">
-      <configuration name="UserTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_testFindAll - 2021.02.22 at 14h 48m 00s.xml">
-      <configuration name="UserTest.testFindAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest_testFindAll - 2021.02.22 at 14h 50m 20s.xml">
       <configuration name="UserTest.testFindAll" configurationId="JUnit" />
     </history-entry>
@@ -537,6 +544,15 @@
     <history-entry file="UserTest_testFindAll - 2021.02.22 at 15h 08m 48s.xml">
       <configuration name="UserTest.testFindAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AccountTest_testFindAll - 2021.02.22 at 20h 30m 44s.xml">
+      <configuration name="AccountTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleTest_testFindAll - 2021.02.22 at 20h 55m 16s.xml">
+      <configuration name="RoleTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoleTest_testFindAll - 2021.02.22 at 20h 58m 03s.xml">
+      <configuration name="RoleTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,9 +565,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="648" y="0" width="892" height="840" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" weight="0.33173078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.32692307" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.17114094" />
       <window_info id="设计师" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,17 +580,17 @@
       <window_info anchor="bottom" id="Problems" order="2" weight="0.32909605" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49929675" weight="0.32840237" />
       <window_info anchor="bottom" id="消息" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49463087" weight="0.41420117" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49463087" weight="0.5769231" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49798658" weight="0.46714285" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32768363" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32692307" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32909605" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5053691" side_tool="true" weight="0.4157143" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5053691" side_tool="true" weight="0.40532544" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4969988" weight="0.32344633" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4969988" weight="0.3224852" />
       <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
       <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.32627118" />
@@ -585,7 +600,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22013423" />
       <window_info anchor="right" id="控制板" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.31105992" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.31009614" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32331732" />
@@ -601,79 +616,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="mybatis_learning" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day2_01_CRUD/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_04_design/src/test/java/com/xym/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_04_design/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_03_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_03_dao/src/test/java/com/xym/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_02_annotation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_02_annotation/src/test/java/com/xym/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_01_DatasourceAndTx/src/main/java/com/xym/domain/QueryVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day2_01_CRUD/src/test/java/com/xym/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="140" column="32" lean-forward="true" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_01_DatasourceAndTx/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3_01_DatasourceAndTx/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -830,77 +772,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/account">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/AccountUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/Dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/AccountDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/account" />
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/user" />
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/AccountUser.java" />
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/Dao/AccountDao.java" />
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/AccountTest.java" />
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/Account.java" />
     <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/java/com/xym/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -911,13 +788,6 @@
             <element signature="e#587#588#0" expanded="true" />
             <element signature="e#627#628#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -938,49 +808,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/AccountDao.java" />
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/user_role" />
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/role" />
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/AccountDao.xml" />
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/main/resources/com/xym/Dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day3_03_one2many/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3_04_many2many/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="111">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="220">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/AccountTest.java" />
     <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="275">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/user_role">
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/Dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/role">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -994,12 +926,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java">
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a71fec3b-f4cf-42b7-a216-b79a7f4bcabb/schema/mybatis_user/table/role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/RoleDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="200">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/RoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,7 +1037,6 @@
             <option name="proportions">
               <list>
                 <option value="0.36802974" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

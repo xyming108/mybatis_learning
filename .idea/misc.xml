@@ -15,11 +15,13 @@
         <option value="$PROJECT_DIR$/Day3_02_dynamicSQL/pom.xml" />
         <option value="$PROJECT_DIR$/Day3_03_one2many/pom.xml" />
         <option value="$PROJECT_DIR$/Day3_03_many2many/pom.xml" />
+        <option value="$PROJECT_DIR$/Day3_04_many2many/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectResources">
-    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$USER_HOME$/.IntelliJIdea2019.1/system/extResources/b36fadae_mybatis-3-mapper.dtd.xml" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.6/mybatis-3.5.6.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.6/mybatis-3.5.6.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

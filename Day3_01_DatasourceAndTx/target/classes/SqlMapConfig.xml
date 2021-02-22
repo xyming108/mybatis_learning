@@ -27,7 +27,7 @@
 
     <!--指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件-->
     <mappers>
-        <package name="com.xym.Dao"></package>
+        <mapper resource="com/xym/Dao/UserDao.xml"/>
     </mappers>
 
 </configuration>

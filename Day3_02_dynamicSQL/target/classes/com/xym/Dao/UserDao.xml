@@ -33,6 +33,7 @@
 
     <!--根据条件查询-->
     <select id="findUserByCondition" parameterType="com.xym.domain.User" resultType="com.xym.domain.User">
+        /*如果后面还有内容，则不能加 ";"（分号） */
         select * from user
         <where>
             <if test="username != null">

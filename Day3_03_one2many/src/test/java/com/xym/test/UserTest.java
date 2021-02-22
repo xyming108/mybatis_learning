@@ -1,9 +1,6 @@
 package com.xym.test;
 
-import com.xym.Dao.AccountDao;
 import com.xym.Dao.UserDao;
-import com.xym.domain.Account;
-import com.xym.domain.AccountUser;
 import com.xym.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;

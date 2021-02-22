@@ -1,8 +1,10 @@
 package com.xym.test;
 
 import com.xym.Dao.AccountDao;
+import com.xym.Dao.UserDao;
 import com.xym.domain.Account;
 import com.xym.domain.AccountUser;
+import com.xym.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -21,11 +23,11 @@ import java.util.List;
  * ClassName: AccountTest
  * Description:mybatis的入门
  */
-public class AccountTest {
+public class UserTest {
 
     private InputStream in;
     private SqlSession sqlSession;
-    private AccountDao accountDao;
+    private UserDao userDao;
 
     @Before //用于在测试方法执行之前执行
     public void init() throws Exception {
@@ -36,7 +38,7 @@ public class AccountTest {
         //3、获取SqlSession对象
         sqlSession = factory.openSession();
         //4、获取dao的代理对象
-        accountDao = sqlSession.getMapper(AccountDao.class);
+        userDao = sqlSession.getMapper(UserDao.class);
     }
 
     @After  //用于在测试方法执行之后执行
@@ -53,21 +55,10 @@ public class AccountTest {
      */
     @Test
     public void testFindAll() {
-        List<Account> accounts = accountDao.findAll();
-        for (Account account : accounts) {
-            System.out.println(account);
-            System.out.println(account.getUser());
-        }
-    }
-
-    /**
-     * 测试查询所有账户，同时包含用户名和地址
-     */
-    @Test
-    public void testFindAllAccountUser() {
-        List<AccountUser> aus = accountDao.findAllAccount();
-        for (AccountUser au : aus) {
-            System.out.println(au);
+        List<User> users = userDao.findAll();
+        for (User user : users) {
+            System.out.println(user);
+            System.out.println(user.getAccounts());
         }
     }
 }

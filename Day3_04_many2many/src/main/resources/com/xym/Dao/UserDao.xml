@@ -12,17 +12,11 @@
         <result property="address" column="address"></result>
         <result property="sex" column="sex"></result>
         <result property="birthday" column="birthday"></result>
-        <!--配置user对象中account集合的映射-->
-        <collection property="accounts" ofType="com.xym.domain.Account">
-            <id column="aid" property="id"></id>
-            <result column="uid" property="uid"></result>
-            <result column="money" property="money"></result>
-        </collection>
     </resultMap>
 
     <!--配置查询所有-->
     <select id="findAll" resultMap="userAccountMap">
-        select u.*, a.id as aid, a.uid, a.money from user u left outer join account a on u.id = a.uid
+        select *from user
     </select>
 
     <!--根据id查询用户-->

@@ -1,40 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Day3_05_jndi:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e2796e73-85ce-4bab-965a-e0139eb1b5d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Day3_05_jndi_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Day3_05_jndi_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/Day3_05_jndi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/java/com/xym/Dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/java/com/xym/domain/QueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/java/com/xym/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/test/java/com/xym/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Day3_05_jndi_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Day3_05_jndi_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_01_CRUD/src/main/resources/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_01_CRUD/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2_01_CRUD/target/classes/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day2_01_CRUD/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/src/main/resources/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/java/com/xym/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/RoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/RoleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/RoleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/RoleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/RoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/RoleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/Dao/UserDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/target/classes/com/xym/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/target/test-classes/com/xym/test/RoleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/target/test-classes/com/xym/test/RoleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3_04_many2many/target/test-classes/com/xym/test/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_04_many2many/target/test-classes/com/xym/test/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/Dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/Dao/AccountDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/classes/com/xym/domain/AccountUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/test-classes/com/xym/test/AccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_03_one2many/target/test-classes/com/xym/test/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_05_jndi/Day3_05_jndi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_05_jndi/Day3_05_jndi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_05_jndi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_05_jndi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/SqlMapConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Day3_01_DatasourceAndTx/target/" />
     <ignored path="$PROJECT_DIR$/Day2_01_CRUD/target/" />
@@ -92,37 +79,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/java/com/xym/Dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/test/java/com/xym/test/MybatisTest.java">
+        <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3_01_DatasourceAndTx/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="31" column="21" selection-start-line="12" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="220">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day3_05_jndi/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="280">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -182,6 +160,9 @@
         <option value="$PROJECT_DIR$/Day3_04_many2many/src/test/java/com/xym/test/UserTest.java" />
         <option value="$PROJECT_DIR$/Day3_04_many2many/src/main/resources/com/xym/Dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/Day3_05_jndi/pom.xml" />
+        <option value="$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/Day3_05_jndi/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -190,6 +171,13 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -227,8 +215,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="810" />
-    <option name="width" value="1115" />
+    <option name="x" value="853" />
+    <option name="width" value="1072" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -253,46 +241,37 @@
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3_01_DatasourceAndTx" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3_01_DatasourceAndTx" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3_01_DatasourceAndTx" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3_01_DatasourceAndTx" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3_01_DatasourceAndTx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
               <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -300,6 +279,69 @@
               <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -308,6 +350,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +376,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Day3_05_jndi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xym" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -338,26 +427,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day3_05_jndi/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/META-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36802974" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xym.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java Code\mybatis_learning\Day3_05_jndi\src\main\webapp\META-INF" />
+      <recent name="E:\Java Code\mybatis_learning\Day3_05_jndi\src\main" />
       <recent name="E:\Java Code\mybatis_learning\Day3_04_many2many\src\main\resources\com\xym\Dao" />
       <recent name="E:\Java Code\mybatis_learning\Day3_04_many2many\src\test\java\com\xym\test" />
       <recent name="E:\Java Code\mybatis_learning\Day3_04_many2many\src" />
-      <recent name="E:\Java Code\mybatis_learning\Day3_03_one2many\src" />
-      <recent name="E:\Java Code\mybatis_learning\Day3_02_dynamicSQL\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,7 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.testFindAll">
+  <component name="RunManager" selected="Tomcat Server.jndi">
     <configuration name="MybatisTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day3_01_DatasourceAndTx" />
       <extension name="coverage">
@@ -451,6 +540,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jndi" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="Day3_05_jndi:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Day3_05_jndi_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mybatis_learning" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2046" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Day3_05_jndi:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MybatisTest" />
+      <item itemvalue="JUnit.MybatisTest.testFindByName" />
+      <item itemvalue="JUnit.MybatisTest.testFindOne" />
+      <item itemvalue="JUnit.MybatisTest (1)" />
+      <item itemvalue="JUnit.UserTest.testFindAll" />
+      <item itemvalue="Tomcat Server.jndi" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserTest.testFindAll" />
@@ -503,10 +672,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="648" y="0" width="892" height="840" extended-state="0" />
+    <frame x="683" y="0" width="857" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.3497596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" weight="0.3601004" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.17114094" />
       <window_info id="设计师" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -520,21 +689,21 @@
       <window_info anchor="bottom" id="Problems" order="2" weight="0.32909605" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49929675" weight="0.32840237" />
       <window_info anchor="bottom" id="消息" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49463087" weight="0.4097633" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49463087" visible="true" weight="0.40828404" />
       <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49798658" weight="0.46714285" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32692307" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5053691" side_tool="true" weight="0.40532544" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4969988" weight="0.3220339" />
-      <window_info anchor="bottom" id="Inspection" order="16" weight="0.4" />
-      <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32909605" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.31714284" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32894737" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32692307" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5053691" side_tool="true" weight="0.40532544" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4969988" weight="0.3210059" />
+      <window_info anchor="bottom" id="Inspection" order="17" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.32627118" />
-      <window_info anchor="bottom" id="Java Enterprise" order="19" weight="0.32768363" />
+      <window_info anchor="bottom" id="Java Enterprise" order="19" weight="0.32748538" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22013423" />
@@ -543,7 +712,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.31009614" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32331732" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32245922" />
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="right" x="735" y="124" width="683" height="458" id="aiXcoder" order="10" weight="0.25260416" />
     </layout>
@@ -650,13 +819,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day1_01/src/test/java/com/xym/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -801,8 +963,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3_05_jndi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_03_one2many/src/test/java/com/xym/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day1_01/src/test/java/com/xym/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/resources/com/xym/Dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3_05_jndi/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -812,6 +1033,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Day3_05_jndi:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -823,7 +1045,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -870,7 +1092,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: dom4j:dom4j:1.6.1</last-edited>
+          <last-edited>Maven: javax.servlet.jsp:jsp-api:2.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

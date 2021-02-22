@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Day3_02_dynamicSQL/Day3_02_dynamicSQL.iml" filepath="$PROJECT_DIR$/Day3_02_dynamicSQL/Day3_02_dynamicSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day3_03_one2many/Day3_03_one2many.iml" filepath="$PROJECT_DIR$/Day3_03_one2many/Day3_03_one2many.iml" />
       <module fileurl="file://$PROJECT_DIR$/Day3_04_many2many/Day3_04_many2many.iml" filepath="$PROJECT_DIR$/Day3_04_many2many/Day3_04_many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day3_05_jndi/Day3_05_jndi.iml" filepath="$PROJECT_DIR$/Day3_05_jndi/Day3_05_jndi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mybatis_learning.iml" filepath="$PROJECT_DIR$/.idea/mybatis_learning.iml" />
     </modules>
   </component>

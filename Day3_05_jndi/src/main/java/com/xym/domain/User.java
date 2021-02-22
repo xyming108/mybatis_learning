@@ -2,7 +2,6 @@ package com.xym.domain;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 /**
  * @user: Hasee
@@ -17,17 +16,6 @@ public class User implements Serializable {
     private String address;
     private String sex;
     private Date birthday;
-
-    //多对多的关系映射，一个用户可以具备多个角色
-    private List<Role> roles;
-
-    public List<Role> getRoles() {
-        return roles;
-    }
-
-    public void setRoles(List<Role> roles) {
-        this.roles = roles;
-    }
 
     public Integer getId() {
         return id;
@@ -74,9 +62,9 @@ public class User implements Serializable {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", address='" + address + '\'' +
-                ", sex='" + sex + '\'' +
                 ", birthday=" + birthday +
+                ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }

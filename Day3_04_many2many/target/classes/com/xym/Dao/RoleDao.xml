@@ -9,11 +9,21 @@
         <id property="roleId" column="id"></id>
         <result property="roleName" column="role_name"></result>
         <result property="roleDesc" column="role_desc"></result>
+        <collection property="users" ofType="com.xym.domain.User">
+            <id column="id" property="id"></id>
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+            <result column="sex" property="sex"></result>
+            <result column="birthday" property="birthday"></result>
+        </collection>
     </resultMap>
 
     <!--查询所有-->
     <select id="findAll" resultMap="roleMap">
-        select * from role;
+        /*换行时要在末尾加空格防止出错*/
+        select u.*, r.id as rid, r.role_name, r.role_desc from role r
+        left outer join user_role ur on r.id = ur.rid
+        left outer join user u on u.id = ur.uid
     </select>
 
 </mapper>

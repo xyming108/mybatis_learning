@@ -55,6 +55,7 @@ public class UserTest {
         List<User> users = userDao.findAll();
         for (User user : users) {
             System.out.println(user);
+            System.out.println(user.getRoles());
         }
     }
 }

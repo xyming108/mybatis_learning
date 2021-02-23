@@ -20,6 +20,10 @@
         <option value="$PROJECT_DIR$/Day3_03_many2many/pom.xml" />
         <option value="$PROJECT_DIR$/Day3_04_many2many/pom.xml" />
         <option value="$PROJECT_DIR$/Day3_05_jndi/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4_01_lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4_02_cache/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4_03_annotation_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Day4_04_annoOne2Many/pom.xml" />
       </list>
     </option>
   </component>

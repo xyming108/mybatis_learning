@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xym.Dao.UserDao">
+    <!--开启yser支持二级缓存-->
+    <cache/>
+
+    <!--配置查询所有-->
+    <select id="findAll" resultType="com.xym.domain.User">
+        select * from user
+    </select>
+
+    <!--根据id查询用户-->
+    <!--parameterType可以随便写，只要可以表示出int类型就可以，resultType表示返回对象，这里返回对象是User类型-->
+    <select id="findById" parameterType="INT" resultType="com.xym.domain.User" useCache="true">
+        select * from user where id = #{uid}
+    </select>
+
+    <!--更新用户信息-->
+    <update id="updateUser" parameterType="com.xym.domain.User">
+        update user set username=#{username}, address=#{address} where id=#{id}
+    </update>
+</mapper>
